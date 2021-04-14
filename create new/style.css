@@ -1,0 +1,225 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(0, 0, 0);
+}
+.my-container{
+    margin:50px;
+    padding:20px;
+    border:1px solid rgb(179, 179, 179);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 7px rgb(235, 127, 39);
+}
+
+
+#wave-image{
+    position: relative;
+    top:80px;
+    width:100%;
+    height:80%;
+    border-top-left-radius: 2rem;
+}
+#logo-img{
+    width:50%;
+    position: relative;
+    left:20px;
+}
+.section-2{
+    background-color: white;
+}
+.section-2-div div{
+    margin:10px;
+}
+.section-2-div h1{
+    font-family: 'Anton', sans-serif;
+   font-size:40px;
+   position: relative;
+   left:60px;
+}
+
+#btn-submit{
+    position: relative;
+    left:80px;
+    margin:10px;
+    width:30%;
+    height:3.5rem;
+    border:none;
+    font-family: 'Anton', sans-serif;
+    font-size:20px;
+    color:white;
+    background-color: #f36e1e;
+    transition: 1s;
+    
+
+}
+#btn-submit:hover{
+    background-color: rgb(255, 255, 255);
+    border : 1px solid #f36e1e;
+    color: #f36e1e;
+    box-shadow:5px 5px 7px rgb(230, 142, 84);
+}
+#inp-email{
+    width:60%;
+    transition:1s;
+}
+#inp-pswd{
+    width:60%;
+    transition:1s;
+}
+#inp-email:hover{
+    background-color: white;
+    border:1px solid black;
+    box-shadow: 5px 5px 7px black;
+
+}
+#inp-pswd:hover{
+    background-color: white;
+    border:1px solid black;
+    box-shadow: 5px 5px 7px black;
+}
+.section-2-div p{
+    font-weight: 600;
+}
+.h1-login{
+    position: relative;
+    left:80px;
+}
+@media only screen and (min-width: 320px)and (max-width:375px){
+    #my-container{
+        width:280px;
+        position: relative;
+        left:5px;
+    }
+    #logo-img{
+        margin:20px;
+        position: relative;
+        left:40px;
+    }
+    .section-2-div h1{
+        font-size: 16px;
+         left:80px;
+     }
+    .section-2-div form{
+        position: relative;
+        left:50px;
+    }
+    #btn-submit{
+        position: relative;
+        font-size: 10px;
+        width:50px;
+        height:2rem;
+        left:40px;
+    }
+    .login-alt img{
+        
+        width:70px;
+    }
+    .login-alt{
+        position: relative;
+        left:30px;
+    }
+}
+@media only screen and (min-width: 380px)and (max-width:425px){
+    #my-container{
+        width:300px;
+        position: relative;
+        
+    }
+    #logo-img{
+        margin:20px;
+        position: relative;
+        left:60px;
+    }
+    .section-2-div h1{
+       font-size: 16px;
+        left:100px;
+    }
+    .section-2-div form{
+        position: relative;
+        left:60px;
+    }
+    .section-2-div form button{
+        position: relative;
+  
+    }
+    #btn-submit{
+        position: relative;
+        font-size: 10px;
+        width:50px;
+        height:2rem;
+        left:50px;
+    }
+    .login-alt img{
+        
+        width:70px;
+    }
+    .login-alt{
+        position: relative;
+        left:30px;
+    }
+}
+@media only screen and (min-width: 430px)and (max-width:768px){
+    #my-container{
+        width:500px;
+        position: relative;
+    
+    }
+    #logo-img{
+        margin:20px;
+        position: relative;
+        left:100px;
+    }
+    .section-2-div h1{
+       left:130px;
+    }
+    .section-2-div form{
+        position: relative;
+        left:90px;
+    }
+    .section-2-div form button{
+        position: relative;
+        left:60px;
+    }
+    .login-alt img{
+        
+        width:90px;
+    }
+    .login-alt{
+        position: relative;
+        left:100px;
+    }
+}
+@media only screen and (min-width: 770px)and (max-width:1024px){
+    #my-container{
+        width:900px;
+        position: relative;
+
+    }
+    #logo-img{
+        margin:20px;
+        position: relative;
+        left:60px;
+    }
+    .section-2-div h1{
+       left:60px;
+    }
+    .section-2-div form{
+        position: relative;
+        left:50px;
+    }
+    .section-2-div form button{
+        position: relative;
+        left:100px;
+    }
+    #btn-submit{
+        position: relative;
+        left:60px;
+    }
+    .login-alt{
+        position: relative;
+        
+    }
+}
